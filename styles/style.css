@@ -54,6 +54,10 @@ abbr{
     text-align: center;
 }
 
+.home-page figure figcaption{
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
 
 #about{
     background: #2c2c2c;
@@ -64,6 +68,10 @@ abbr{
 
 #about h1 abbr{
     color: red;
+}
+
+#about h1{
+    font-weight: bolder;
 }
 
 #about p{
