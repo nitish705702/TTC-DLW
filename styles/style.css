@@ -3,11 +3,6 @@ body {
 }
 .bg-dark {
   background-color: #2f2f2f !important;
-  /*background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0)
-  );*/
 }
 
 body {
@@ -21,8 +16,8 @@ abbr {
   text-decoration: none !important;
 }
 
-.center-custom {
-  justify-content: center;
+.nav-right{
+    display: flex;
 }
 
 .form-control {
@@ -39,14 +34,10 @@ abbr {
   box-shadow: none;
 }
 
-.fas {
-  color: whitesmoke;
-}
 
 .home-page {
   display: flex;
   height: 100vh;
-  width: 98.9vw;
   z-index: -1; /* Remove this line if it's not going to be a background! */
   justify-content: center;
   align-items: center;
@@ -63,7 +54,6 @@ abbr {
 
 #about {
   background: #2c2c2c;
-  color: whitesmoke;
   padding: 8vw;
   text-align: center;
 }
@@ -86,6 +76,10 @@ abbr {
 
 .red-color {
   color: red !important;
+}
+
+.whitesmoke-color{
+    color: whitesmoke;
 }
 
 .dark-color {
