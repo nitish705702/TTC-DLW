@@ -60,6 +60,7 @@ abbr {
 
 #departments {
   display: flex;
+  justify-content: center;
   background: whitesmoke;
   color: #2c2c2c;
   padding: 8vw;
@@ -88,4 +89,21 @@ abbr {
 
 .padding-1vw {
   padding: 1vw !important;
+}
+
+@media screen and (max-width: 600px){
+    #departments>div>p{
+        display: none;
+    }
+    #departments{
+        display: block;
+    }
+
+    #departments h1:after{
+        content: "Departments";
+        font-weight: bolder;
+    }
+    #departments h1{
+        padding-bottom: 3vh;
+    }
 }
